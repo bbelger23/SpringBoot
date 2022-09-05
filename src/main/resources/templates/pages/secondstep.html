@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
+<head th:replace="fragments/_header :: head(pageTitle='Step 2')">
+</head>
+
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>Step Two - Include something personal to build rapport</h2>
+<img th:src="@{/img/steptwo.jpg}" alt="Building Rapport">
+<p>
+    You don’t just want to include professional details in your pitch because it’s boring. Everyone focuses on the professional,
+    and you need to stand out to be remembered. Including something personal also helps a genuine relationship to build,
+    and the pitch is just the start of what is hopefully a long-term genuine relationship. Some personal tidbits that are
+    still appropriate for professional networking include:
+</p>
+<p>
+    1.     How you became interested in your line of work. This is a natural transition from establishing your credibility –
+    you’re not only knowledgeable, but enthusiastic!
+</p>
+<p>
+    2.     Life story – e.g., where you grew up, where you went to school, earlier career if different from now
+</p>
+<p>
+    3.     Passion or hobby – these should be pursuits that you invest in, not just dabble in because superficial effort
+    doesn’t make a memorable impression
+</p>
+<p>
+    4.     Community or non-profit involvement – if you have any leadership experience, that adds to your professional
+    credibility as well
+</p>
+<p>
+    5.     Recent book you read, trip you took or event you attended – similar to the passion or hobby, this isn’t just
+    about being well-rounded but also being interesting and dedicated, so pick accordingly
+</p>
+<p>
+    6.     Connection to the person you are talking to or circumstances that put you together – if you’re attending a virtual
+    summit on AI, and your work isn’t obviously related to AI, then you could talk about what prompted you to attend
+</p>
+<p>Content taken from <a href="https://www.forbes.com/sites/carolinecenizalevine/2020/04/27/how-to-create-a-networking-pitch-in-three-easy-steps/?sh=3b1ca1c5b803">here.</a></p>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>
