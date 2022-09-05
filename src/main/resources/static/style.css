@@ -8,6 +8,11 @@ img {
     padding: 10px;
 }
 
+img.network {
+    width: 640px;
+    height: 360px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     @RequestMapping("/forward-me")
     public String doForward() {
-        return "forward:/fossils/facts";
+        return "forward:/one/firststep";
     }
 
     @RequestMapping("/redirect-me")
@@ -21,3 +21,4 @@ public class HomeController {
         return "index";
     }
 }
+
